@@ -6,4 +6,44 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1.5rem 6rem;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+}
+.nav-list li{
+    margin: 0 1.5rem;
+}
+.nav-list a{
+ font-size:1.5rem;
+ font-weight: 500;
+ color: #fff;
+
+}
+.login-button button{
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #0187a7;
+    padding: 1rem 1.5rem;
+}
+.login-button button a{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+    
