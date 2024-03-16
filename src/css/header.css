@@ -18,7 +18,7 @@ color: #e9a209;
     gap: 48px;
 }
 .nav-item a{
-    font-size: 10px;
+    font-size: 15px;
     color: #1d1d1dad;
     font-weight: 600;
 
@@ -32,4 +32,31 @@ color: #e9a209;
 }
 #mobile-btn{
     display: none;
+}
+
+@media (max-width: 1024px){
+    #nav-list, #navbar .btn-default{
+        display: none;
+    }
+    #mobile-btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    #mobile-menu.active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #mobile-nav-list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0;
+        text-align: center;
+    }
 }
