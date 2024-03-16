@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOOD</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/imagem/all.min.css">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/header.css">
@@ -12,34 +12,34 @@
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <h1>LOGO</h1>
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger">FOOD</i>
+                <ul id="nav-list">
+                    <li class="nav-item active ">
+                        <a href="#home" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#menu" class="nav-link">Cadápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Testimonials" class="nav-link">Avaliações</a>
+                    </li>
                 </ul>
-            </div>
-            <div class="login-button">
-                <button><a href="#">Entrar</a></button>
-            </div>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="./src/imagem/menu_white_36dp.svg" alt=""></button>
-            </div>
+                <button class="btn-default">
+                    Peça Aqui
+                </button>
+                <button id="mobile-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
         </nav>
-        <div class="mobile-menu">
-                    <ul>
+        <div id="mobile-menu">
+                    <ul id="mobile-nav-list">
                     <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
                 </ul>
           
-            <div class="login-button">
-                <button><a href="#">Entrar</a></button>
-            </div>
+                <button class="btn-default">Peça aqui</button>
         </div>
     </header>
     <script src="./src/js/index.js"></script>
