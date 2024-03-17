@@ -63,3 +63,10 @@ a{
 li{
     list-style: none;
 }
+.section-title{
+    font-size: 1.563rem;
+    color: #e9a209;
+}
+.section-subtitle{
+    font-size: 2.1675rem;
+}
