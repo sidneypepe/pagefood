@@ -25,10 +25,10 @@ section{
     background-color: #ffcb45;
     border-radius: 12px;
     padding: 10px 14px;
-    font-weight: 500;
-    box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.1reen, blue, alpha);
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 .btn-default:hover{
 
@@ -46,14 +46,15 @@ section{
     width: 45px;
     height: 40px;
     background-color: #fff;
-    font-size: 24px;
+    font-size: 1.4rem;
     border-radius: 12px;
     color: #1d1d1d;
-    box-shadow: 0px 0px 12px 4px rgba(red, green, blue, 0.1);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
 
 }
 .social-media-buttons a:hover{
-    box-shadow: 0px 0px 12px 8px rgba(red, green, blue, 0.1);
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 
 }
 a{
