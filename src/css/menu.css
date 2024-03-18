@@ -8,7 +8,6 @@
 .dishes{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     gap: 24px;
     margin-top: 25px;
@@ -16,7 +15,6 @@
 .dish{
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 border-radius: 20px;
 gap: 18px;
